@@ -11,15 +11,12 @@ pipeline {
         git 'https://github.com/nisalikularatne/capstone-project.git'
       }
      }
-     stage('Build Docker Image') {
-                when {
-                    branch 'master'
-                }
-                steps {
-                    script {
-                        sudo sh 'docker build . -t nisalikularatne/capstone-docker'
-                        }
-                    }
-             }
+    stage('Building image') {
+      steps{
+        script {
+          sudo docker.build registry + ":$BUILD_NUMBER"
+        }
+      }
+    }
   }
 }
