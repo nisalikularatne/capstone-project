@@ -17,7 +17,7 @@ pipeline {
                 }
                 steps {
                     script {
-                        sh 'docker build . -t nisalikularatne/capstone-docker'
+                        sudo sh 'docker build . -t nisalikularatne/capstone-docker'
                         }
                     }
              }
