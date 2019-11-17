@@ -1,7 +1,7 @@
 
 pipeline {
   environment {
-    registry = "nisalikularatne/capstone-docker"
+    registry = "nisalikularatne/first-docker-application"
     registryCredential = 'dockerhub'
   }
   agent any
