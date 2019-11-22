@@ -14,7 +14,7 @@ pipeline {
     stage('Building image') {
       steps{
         script {
-          sudo docker.build registry + ":$BUILD_NUMBER"
+          sh 'docker build -f "Dockerfile-terraform" -t brightbox/terraform:latest .'
         }
       }
     }
