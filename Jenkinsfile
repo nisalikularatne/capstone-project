@@ -18,5 +18,12 @@ pipeline {
         }
       }
     }
+    stage('Push image'){
+      steps{
+        script{
+         sh "docker push first-docker-application"
+         }
+       }
+     }
   }
 }
