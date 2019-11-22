@@ -23,8 +23,8 @@ pipeline {
         script{
          sh "docker login -u nisalikularatne -p NIS23141234KUL"
          	     	sh "docker build -t first-docker-application ."
-         	     	sh "docker tag first-docker-application first-docker-application"
-         	     	sh "docker push first-docker-application"
+         	     	sh "docker tag first-docker-application nisalikularatne/first-docker-application"
+         	     	sh "docker push nisalikularatne/first-docker-application"
          }
        }
      }
