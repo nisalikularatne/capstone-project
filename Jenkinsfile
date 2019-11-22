@@ -14,7 +14,7 @@ pipeline {
     stage('Building image') {
       steps{
         script {
-          sh 'docker build -f "Dockerfile-terraform" -t brightbox/terraform:latest .'
+          sh 'docker build --tag=first-docker-application .'
         }
       }
     }
