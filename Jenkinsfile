@@ -14,7 +14,7 @@ pipeline {
     stage('Building image') {
       steps{
         script {
-          sh 'sudo docker build --tag=first-docker-application .'
+          sh 'docker build --tag=first-docker-application .'
         }
       }
     }
