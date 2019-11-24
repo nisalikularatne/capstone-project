@@ -31,7 +31,7 @@ pipeline {
      stage('Deploy image to EKS cluster') {
            steps {
              withAWS(region:'us-west-2', credentials:'blueocean') {
-                 sh '''aws --region us-west-2 eks update-kubeconfig --name UdacityEKSCapstone'''
+                 sh '''aws eks --region us-west-2 update-kubeconfig --name UdacityEKSCapstone'''
      	         sh '''kubectl get nodes'''
 
       	         sh ''' kubectl run first-docker-application --image=nisalikularatne/first-docker-application --port=80'''
