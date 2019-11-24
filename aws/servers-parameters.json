@@ -1,0 +1,10 @@
+[
+  {
+    "ParameterKey": "EnvironmentName",
+    "ParameterValue": "UdacityProject"
+  },
+  {
+    "ParameterKey": "LoadBalancerURL",
+    "ParameterValue": "http://serve-WebAp-Q0Q1FLO5PC4P-1374864840.us-west-2.elb.amazonaws.com"
+  }
+]
