@@ -36,7 +36,7 @@ pipeline {
 
 
                  sh '''kubectl set image deployment/first-docker-application first-docker-application=nisalikularatne/first-docker-application'''
-     	         sh '''kubectl rollout undo deployment/first-docker-application'''
+
      	         sh '''kubectl rollout status -w deployment/first-docker-application'''
      	         sh '''kubectl scale deployments/first-docker-application --replicas=3'''
      	         sh '''kubectl get pods -o wide'''
