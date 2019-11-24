@@ -34,8 +34,8 @@ pipeline {
                  sh '''aws eks --region us-west-2 update-kubeconfig --name UdacityEKSCapstone'''
      	         sh '''kubectl get nodes'''
 
-      	         sh ''' kubectl run first-docker-application --image=nisalikularatne/first-docker-application --port=80'''
-                 sh '''kubectl set image deployment/first-docker-application first-docker-application=nisalikularatne/first-docker-application"'''
+
+                 sh '''kubectl set image deployment/first-docker-application first-docker-application=nisalikularatne/first-docker-application'''
      	          sh '''kubectl rollout status -w deployment/first-docker-application'''
      	          sh '''kubectl scale deployments/first-docker-application --replicas=3'''
      	          sh '''kubectl get pods -o wide'''
