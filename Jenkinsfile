@@ -28,15 +28,14 @@ pipeline {
          }
        }
      }
-     stage('Deploy image to EKS cluster') {
+     stage('Deployement into the EKS cluster') {
            steps {
              withAWS(region:'us-west-2', credentials:'blueocean') {
                  sh '''aws eks --region us-west-2 update-kubeconfig --name UdacityEKSCapstone'''
      	         sh '''kubectl get nodes'''
-
+     	         //line below only for first time
+                 //sh '''kubectl run first-docker-application --image=nisalikularatne/first-docker-application:"$BUILD_ID" --port=80 --expose=true'''
                  sh '''kubectl set image deployment/first-docker-application first-docker-application=nisalikularatne/first-docker-application'''
-
-
      	         sh '''kubectl scale deployments/first-docker-application --replicas=3'''
      	         sh '''kubectl get pods -o wide'''
      	         sh '''kubectl describe deployment first-docker-application'''
