@@ -27,8 +27,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Jenkinsfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="367">
-              <caret line="38" column="84" lean-forward="true" selection-start-line="38" selection-start-column="23" selection-end-line="38" selection-end-column="84" />
+            <state relative-caret-position="-315">
+              <caret line="15" column="16" lean-forward="true" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -42,7 +42,7 @@
         <entry file="file://$PROJECT_DIR$/aws/IAM-role.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="476">
-              <caret line="17" column="30" lean-forward="true" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="30" />
+              <caret line="17" column="30" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -50,8 +50,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/aws/network.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="347">
-              <caret line="208" column="10" selection-start-line="208" selection-start-column="4" selection-end-line="208" selection-end-column="10" />
+            <state relative-caret-position="154">
+              <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -59,8 +59,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/aws/servers.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="296">
-              <caret line="193" column="37" selection-start-line="193" selection-start-column="37" selection-end-line="193" selection-end-column="37" />
+            <state relative-caret-position="14">
+              <caret line="81" column="42" selection-start-line="81" selection-start-column="39" selection-end-line="81" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -105,6 +105,7 @@
       <find>export</find>
       <find>subnetIds</find>
       <find>subnet</find>
+      <find>ec2</find>
       <find>eks</find>
     </findStrings>
   </component>
@@ -123,8 +124,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="width" value="1440" />
-    <option name="height" value="900" />
+    <option name="width" value="1280" />
+    <option name="height" value="800" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -181,18 +182,18 @@
       <updated>1573454799998</updated>
       <workItem from="1573454802631" duration="1460000" />
       <workItem from="1573710564158" duration="4322000" />
-      <workItem from="1573997318886" duration="13687000" />
+      <workItem from="1573997318886" duration="15602000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19469000" />
+    <option name="totallyTimeSpent" value="21384000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24946846" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2813749" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -204,7 +205,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.26767677" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.30635837" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -252,7 +253,7 @@
     <entry file="file://$PROJECT_DIR$/aws/IAM-role.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
-          <caret line="17" column="30" lean-forward="true" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="30" />
+          <caret line="17" column="30" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="30" />
         </state>
       </provider>
     </entry>
@@ -261,22 +262,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/aws/network.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="208" column="10" selection-start-line="208" selection-start-column="4" selection-end-line="208" selection-end-column="10" />
+        <state relative-caret-position="154">
+          <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/aws/servers.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="193" column="37" selection-start-line="193" selection-start-column="37" selection-end-line="193" selection-end-column="37" />
+        <state relative-caret-position="14">
+          <caret line="81" column="42" selection-start-line="81" selection-start-column="39" selection-end-line="81" selection-end-column="42" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Jenkinsfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="38" column="84" lean-forward="true" selection-start-line="38" selection-start-column="23" selection-end-line="38" selection-end-column="84" />
+        <state relative-caret-position="-315">
+          <caret line="15" column="16" lean-forward="true" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
         </state>
       </provider>
     </entry>

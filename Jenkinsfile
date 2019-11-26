@@ -33,8 +33,7 @@ pipeline {
              withAWS(region:'us-west-2', credentials:'blueocean') {
                  sh '''aws eks --region us-west-2 update-kubeconfig --name UdacityEKSCapstone'''
      	         sh '''kubectl get nodes'''
-
-
+                 sh '''kubectl run first-docker-application --image=nisalikularatne/first-docker-application:"$BUILD_ID" --port=80 --expose=true'''
                  sh '''kubectl set image deployment/first-docker-application first-docker-application=nisalikularatne/first-docker-application'''
 
      	         sh '''kubectl rollout status -w deployment/first-docker-application'''
